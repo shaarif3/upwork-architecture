@@ -1,0 +1,391 @@
+ .main
+ {
+     background-color:rgb(27, 68, 78);
+     width: 100%;
+     height: 550px;
+     /* overflow: hidden; */
+ }
+ .left
+ {
+     float: left;
+    padding-top: 20px;
+    padding-left: 80px;
+ }
+ #img
+ {
+     width: 90px;
+ }
+ #inp
+ {
+     height: 35px;
+     width: 250px;
+     margin-left: 10px;
+     background-color: rgb(23, 96, 114);
+     border: 1px solid rgb(26, 92, 109)  ;
+     
+ }
+ ::placeholder
+ {
+    color: whitesmoke;
+ }
+ .right
+ {
+    float: right;
+    padding-right: 90px;
+    padding-top: 10px;
+ }
+ ul
+ {
+     list-style: none;
+
+ }
+ ul li
+ {
+    display: inline;
+    padding: 20px;
+ }
+ ul li a
+ {
+     text-decoration: none;
+     font-size: 13px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+ }
+ ul li a:hover
+ {
+     color: green;
+ }
+#post
+{
+    border: 1px solid  rgb(26, 116, 26);
+    padding: 10px;
+    background-color: rgb(26, 116, 26);
+}
+#post:hover
+{
+    background-color: rgb(19, 59, 19);
+    color: white;
+}
+/* 2nd part */
+.head
+{
+    text-align: center;
+    padding-top: 70px;
+    
+}
+.head ul li a
+{
+    font-family: Arial, Helvetica, sans-serif;
+     color: white;
+}
+.head ul li a:hover
+{
+    color: green;
+}
+#border
+{
+    border: 1px solid  rgb(26, 92, 109)  ;
+    padding: 10px;
+}
+.abc
+{
+    display: flex;
+    justify-content: space-between;
+}
+#imgtwo
+{
+    height: 408px;
+    width: auto;
+}
+
+
+/* @font-face
+{
+    font-family: 'understory';
+    src: url('understory/Understory DEMO.otf');
+} */
+#textone
+{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 4px;
+    color: white;
+    margin-left: 140px;
+    margin-top: 90px;
+}
+#texttwo
+{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;ont-size: 45px;
+    font-family: 'understory';
+    color: rgb(21, 163, 21);
+    word-spacing: 4px;
+}
+#textthree
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: -27px;
+    margin-left: 140px;
+}
+.button
+{
+    margin-left: 145px;
+    margin-top: -100px;
+   
+    
+}
+.button a
+{
+    text-decoration: none;
+    padding :10px 30px 10px 30px;  /*top right bottom left*/  
+}
+
+#btn1
+{
+    border: 1px solid transparent;
+    background-color: green;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#btn2
+{
+    border: 1px solid transparent;
+    color: green;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* color k bd ka code */
+
+#trust
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.images
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 18px 20px 20px 5px;
+
+}
+#micro
+{
+    width: 130px;
+    height: 70px;
+    margin-top: 5px;
+}
+#air
+{
+    width: 150px;
+    height: 70px;
+    margin-top: 5px;
+}
+#Himg
+{
+    width: 100px;
+    height: 50px;
+    margin-top:15px ;
+}
+#auto
+{
+    width: 150px;
+    height: 90px;
+}
+#bisel
+{
+    width: 130px;
+    height: 70px;
+}
+#coty
+{
+    width: 130px;
+    height: 70px;
+}
+.org
+{
+    margin-left: 650px;
+}
+#heading
+{
+    color:  rgb(19, 58, 68);
+    font-size: 35px;
+    text-align: center;
+}
+
+.middle1
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 25px 25px 25px;
+    
+}
+.midimage1
+{
+    border: 1px solid transparent;
+    box-shadow:2px 2px 2px 2px rgba(213, 221, 220, 0.445);
+}
+#imgtext1
+{
+    text-align: center;
+}
+
+.middle2
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 25px 0px 25px;
+}
+.midimage2
+{
+    border: 1px solid transparent;
+    box-shadow:2px 2px 2px 2px rgba(213, 221, 220, 0.445);
+}
+#imgtext2
+{
+    text-align: center;
+}
+.ctgr
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#see
+{
+    color: green;
+}
+#see:hover
+{
+    text-decoration: underline;
+}
+
+
+.midcontent1
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    margin-left: -80px;
+}
+#one
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(32, 69, 78) ;
+}
+#two
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(19, 45, 51) ;
+}
+#three
+{
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#three:hover
+{
+    text-decoration: underline;
+}
+
+.midcontent2
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0px 0px -40px;
+}
+#eng
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(32, 69, 78) ;
+}
+#pay
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(19, 45, 51) ;
+}
+#can
+{
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#can:hover
+{
+    text-decoration: underline;
+}
+
+.midcontent3
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0px 0px -90px;
+}
+#hire
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(32, 69, 78) ;
+}
+#rev
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(19, 45, 51) 
+}
+#review
+{
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#review:hover
+{
+    text-decoration: underline;
+}
+
+.midcontent4
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0px 0px -90px;
+}
+#ent
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(32, 69, 78) ;
+}
+#glove
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(19, 45, 51) 
+}
+#hen
+{
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#hen:hover
+{
+    text-decoration: underline;
+}
+.pinky
+{
+    text-align: center;
+    margin: 60px;
+}
